@@ -7,7 +7,8 @@
 $(function() {
     function WmelunaloaderViewModel(parameters) {
         var self = this;
-
+        OctoPrint.coreui.viewmodels.gcodeViewModel.tabActive = true
+        console.log("set tabs to load")
         // assign the injected parameters, e.g.:
         // self.loginStateViewModel = parameters[0];
         // self.settingsViewModel = parameters[1];
