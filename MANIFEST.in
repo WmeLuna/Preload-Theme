@@ -1,0 +1,4 @@
+include README.md
+recursive-include octoprint_wmelunaloader/templates *
+recursive-include octoprint_wmelunaloader/translations *
+recursive-include octoprint_wmelunaloader/static *
